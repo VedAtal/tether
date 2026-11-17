@@ -6,7 +6,15 @@ struct SettingsView: View {
     @ObservedObject var prefs: Preferences
 
     var body: some View {
-        SettingsForm(needsAccessibility: prefs.traditionalWheel, height: 300) {
+        SettingsForm(needsAccessibility: prefs.usesEvents, height: 420) {
+            Section {
+                Toggle("Brightness keys", isOn: $prefs.brightnessKeys)
+            } header: {
+                Text("Displays")
+            } footer: {
+                Text("The keyboard's brightness keys change the screen the pointer is on, external monitors included.")
+                    .foregroundStyle(.secondary)
+            }
             Section {
                 Toggle("Traditional wheel scrolling", isOn: $prefs.traditionalWheel)
             } header: {

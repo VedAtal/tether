@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Tether",
-    platforms: [.macOS(.v14)],
+    platforms: [.macOS("26.0")],
     dependencies: [
         .package(url: "https://github.com/VedAtal/swift-app-kit.git", branch: "main")
     ],
