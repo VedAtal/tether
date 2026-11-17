@@ -1,5 +1,5 @@
 {
-  "originHash" : "141df21d7f23b761d65b5d8c9dc93c4174035adaec3b84d60f0710cb837e7ce0",
+  "originHash" : "11ad4c4eaf8454b8e25c507665df7cc3ab9ae5bf58ec6b068f91e696f3ce8dde",
   "pins" : [
     {
       "identity" : "swift-app-kit",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/VedAtal/swift-app-kit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "6ddb3c4dcfb8b860a5d9ee973619c3da2f8028b5"
+        "revision" : "8a06b461de8dd1f6d31c1767c48250d14e60a8c0"
       }
     }
   ],
